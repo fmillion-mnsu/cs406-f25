@@ -66,15 +66,13 @@ D2L will be used to provide you with course announcements, homework assignments 
 
 ## Group Projects
 
-This course will involve group projects that you will work on in small groups of 3-4 students. Groups will be assigned early in the course. You will select your group members on your own.
+This course will involve group projects that you will work on in small groups of 3-4 students. You will select your group members on your own early in the course.
 
 Group assignments are generally a single submission for the entire group. If you find that you are struggling as a group (for example, a group member is not contributing fairly), please communicate your concerns to me privately. I will keep any comments you make in this regard anonymous.
 
 ## Grading
 
-This course is available on a for-credit, Grade Only basis. You will receive a letter grade in this course. Your final grade will be calculated according to the following rubric on the next page.
-
-Your final grade for this course will be based on the following assessments and weights:
+This course is available on a for-credit, Grade Only basis. You will receive a letter grade in this course. Your final grade will be calculated according to the following assessment categories and weights:
 
 Item | Percent
 ---- | --------
@@ -84,7 +82,7 @@ Group Activities | 60%
 
 There will be no quizzes or final exam for this course. The work you do in your individual and group assignments will be ongoing throughout the semester. Your final grade will be calculated based on the above categories.
 
-This course will use shaded grading. The following is the minimum score for each grade:
+This course will use "shaded" (plus/minus) grading. The following is the minimum score for each grade:
 
 Percentage of Points | Grade
 -------------------- | -----
@@ -97,12 +95,12 @@ Percentage of Points | Grade
 73% | C
 70% | C-
 68% | D+
-65% | D
+60% | D
 0% | F
 
 ### Deadlines
 
-Assignment due dates in this course are firm. Unless you have extenuating circumstances that you discuss with me *as early as possible*, assignments submitted late will lose significant points, up to an including a full loss of points for the assignment.
+Assignment due dates in this course are firm. Unless you have extenuating circumstances that you discuss with me *as early as possible*, assignments submitted late will lose significant points, up to and including a full loss of points for the assignment.
 
 Unless otherwise stated, assignments will be due on D2L (or via an appropriate alternative submission mechanism) at **11:59 PM** on the given due date.
 
