@@ -58,7 +58,7 @@ This course is aimed at students who know at least two programming languages at 
 
 You will be participating in in-class activities that require a laptop to be brought to class. If you do not have access to a personal laptop, you can borrow one from the University Library.
 
-You will need to install free open-source software on your machine. I will provide you instructions for any installations necessary along with guidance on removing the software after the class should you desire. There will be no costs associated with required software. 
+You will need to install free open-source software on your machine. I will provide you instructions for any installations necessary along with guidance on removing the software after the class should you desire. There will be no costs associated with required software.
 
 > If you are using a university loaned computer and do not have permission to install software or are otherwise unable to install software on your own machine, or if you experience compatibility issues, come speak with me so we can evaluate alternatives. A limited number of secure cloud environments can be made available in such circumstances.
 
@@ -68,7 +68,7 @@ D2L will be used to provide you with course announcements, homework assignments 
 
 This course will involve group projects that you will work on in small groups of 3-4 students. Groups will be assigned early in the course. You will select your group members on your own.
 
-Group assignments are generally a single submission for the entire group. If you find that you are struggling as a group (for example, a group member is not contributing fairly), please communicate your concerns to me privately. I will keep any comments you make in this regard anonymous. 
+Group assignments are generally a single submission for the entire group. If you find that you are struggling as a group (for example, a group member is not contributing fairly), please communicate your concerns to me privately. I will keep any comments you make in this regard anonymous.
 
 ## Grading
 
@@ -102,9 +102,9 @@ Percentage of Points | Grade
 
 ### Deadlines
 
-Assignment due dates in this course are firm. Unless you have extenuating circumstances that you discuss with me *as early as possible*, assignments submitted late will lose significant points, up to an including a full loss of points for the assignment. 
+Assignment due dates in this course are firm. Unless you have extenuating circumstances that you discuss with me *as early as possible*, assignments submitted late will lose significant points, up to an including a full loss of points for the assignment.
 
-Unless otherwise stated, assignments will be due on D2L (or via an appropriate alternative submission mechanism) at **11:59 PM** on the given due date. 
+Unless otherwise stated, assignments will be due on D2L (or via an appropriate alternative submission mechanism) at **11:59 PM** on the given due date.
 
 In general, I will use the following penalties for late assignments. Exceptions or modifications to these will be noted as appropriate.
 
@@ -131,7 +131,7 @@ If attendance is taken during a class in which I have given you an excused absen
 
 ### Grade Explanations and Appeals
 
-You have the right to ask me for an explanation of any grade you receive, both on assignments as well as your final grade. 
+You have the right to ask me for an explanation of any grade you receive, both on assignments as well as your final grade.
 
 Grade appeals are reviewed in instances where students perceive that a final course grade is unfair, arbitrary, or capricious. Students must begin the procedures of this policy within two weeks of university notification of a final course grade. Students needing assistance at any step in appealing a grade may contact the Academic Affairs Coordinator of the Student Senate (280 Centennial Student Union; phone 389-2611). Students should retain copies of all materials associated with this process for their records. Students should also have records of their coursework from the class as part of the appeal process. The full policy is available at <https://www.mnsu.edu/policies/approved/gradeappeals.pdf>.
 
@@ -153,7 +153,7 @@ In this course, I encourage you to ask your peers and utilize available online r
 
 * Helping your classmate or another group understand why their syntax is causing a compilation error is OK; fixing it for them or providing a copy of your code to your classmate is not.
 * Asking a classmate, group or online forum a question about why your code is not doing what you expect it to, and receiving answers guiding you to a solution that you implement yourself, is OK; asking someone to fix the code *for* you or simply provide you with working code that you will use as-is is not.
-* Studying code online to learn how something is done and then implementing that solution in your own way is OK (as long as you understand and can explain your code); copying and pasting large amounts of code verbatim or with only very minimal changes is not. 
+* Studying code online to learn how something is done and then implementing that solution in your own way is OK (as long as you understand and can explain your code); copying and pasting large amounts of code verbatim or with only very minimal changes is not.
 * **My policy on use of artificial intelligence is covered in a [separate section below](#artificial-intelligence-policy).**
 
 This course includes a group project. For the group project, specific requirements for submission of completed work will be outlined for that specific project. Each group will submit both a final group project deliverable *in addition to* individual submissions. For all work outside the group project, unless otherwise noted, you should assume *all* homework is to be completed and submitted **individually**.
@@ -178,12 +178,12 @@ The full policy, including definitions of plagiarism, cheating, and collusion, i
 
 **I treat code or other text generated with artificial intelligence exactly the same way I treat materials obtained from a human-generated source (website post, book, classmate&hellip;).**
 
-Specifically, this means that in most cases (unless otherwise required by an assignment), you *may* ask an AI system for assistance with your code and you *may* study code generated by the AI for ideas; however, you ***may not*** copy code provided by an AI engine verbatim or with only very minimal modification and include it as your own work. 
+Specifically, this means that in most cases (unless otherwise required by an assignment), you *may* ask an AI system for assistance with your code and you *may* study code generated by the AI for ideas; however, you ***may not*** copy code provided by an AI engine verbatim or with only very minimal modification and include it as your own work.
 
 You *can* use AI as a tool to help you learn and as a reference, but you *cannot* (and should not!) use AI as a tool to "do the work for you".
 
 > As with any code you submit, you must **fully understand and be able to defend your code**. In any case, you may *not* share artifacts you generate with AI with any other classmates (with the obvious exception of sharing with your group members for group project work).
-> 
+>
 > In some cases, I may ask you to **document use of AI**, including LLM used, prompts submitted and the complete, unedited output from AI. In such situations, this requirement will be noted in the assignment; please observe and follow such instructions as described.
 
 *I exercise common sense in enforcing these policies*. For example, if you discover that there is one single well-established strategy for accomplishing a given generic task and a template implementing that method is provided, and coding an alternative strategy would be excessively awkward or would create other secondary issues (e.g. insecure code, slower performance, etc.), then using such a template is not considered "copying and pasting large amounts of code verbatim".
@@ -196,7 +196,7 @@ You *can* use AI as a tool to help you learn and as a reference, but you *cannot
 
 *In the instance that you have a legitimate reason to include a large section of AI-generated content in a submission*, use proper citation strategies to cite the AI-generated content the same way you would cite another source. [This page](https://apastyle.apa.org/blog/how-to-cite-chatgpt) will give you an overview of proper citation of generative AI content.
 
-If you have further questions on this policy, or want to ask about a specific scenario, please feel free to ask me. 
+If you have further questions on this policy, or want to ask about a specific scenario, please feel free to ask me.
 
 ### Students with Disabilities
 
