@@ -117,6 +117,7 @@ On Time | 100%
 
 Late submission days *include weekends*. (If an assignment is due on Friday at 11:59 PM, submitting on Monday counts as 3 days late!)
 
+> [!IMPORTANT]
 > If you know ahead of time that you will miss a posted deadline, contact me *as soon as possible* to discuss your situation.
 
 ### Attendance Grading
@@ -127,7 +128,7 @@ Attendance grading will comprise 5% of your final course grade. **However, if at
 
 If you need to miss a class, you should contact me *as early as possible* to explain your situation. I will make reasonable accommodations for important activities that require you to be absent from class; if your absence is significant I may offer you some make-up work and/or the option to join the class via Zoom as appropriate. **Notifying me of an absence after the fact will NOT result in an excused absence unless the circumstances are particularly extreme and warrant such an accommodation.** Such exceptions will only be made on a case-by-case basis.
 
-If attendance is taken during a class in which I have given you an excused absence, you will receive attendance points for that day despite being absent.
+If attendance is taken during a class in which I have given you an excused absence, *you will receive attendance points for that day despite being absent*.
 
 ### Grade Explanations and Appeals
 
@@ -182,12 +183,14 @@ Specifically, this means that in most cases (unless otherwise required by an ass
 
 You *can* use AI as a tool to help you learn and as a reference, but you *cannot* (and should not!) use AI as a tool to "do the work for you".
 
+> [!IMPORTANT]
 > As with any code you submit, you must **fully understand and be able to defend your code**. In any case, you may *not* share artifacts you generate with AI with any other classmates (with the obvious exception of sharing with your group members for group project work).
 >
 > In some cases, I may ask you to **document use of AI**, including LLM used, prompts submitted and the complete, unedited output from AI. In such situations, this requirement will be noted in the assignment; please observe and follow such instructions as described.
 
 *I exercise common sense in enforcing these policies*. For example, if you discover that there is one single well-established strategy for accomplishing a given generic task and a template implementing that method is provided, and coding an alternative strategy would be excessively awkward or would create other secondary issues (e.g. insecure code, slower performance, etc.), then using such a template is not considered "copying and pasting large amounts of code verbatim".
 
+> [!NOTE]
 > To illustrate this, consider that many IDEs provide templates for various project types and also often offer "wizards" that generate parts of the code for you based on parameters you specify, with the generated code following established coding practices.
 >
 > Use of such tools is *not* violation of this policy, since they are generic in nature and you are still required to write the code to make the application perform your specific tasks.
