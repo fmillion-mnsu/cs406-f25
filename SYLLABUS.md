@@ -173,8 +173,8 @@ The full policy, including definitions of plagiarism, cheating, and collusion, i
 > * ❌ You may not copy-and-paste AI-generated code or text, even with minor changes.
 > * ✅ You may use AI as a learning or reference tool, not a substitute for doing your own work.
 > * ❌ You may not share AI-generated artifacts outside your group unless explicitly allowed.
-> * 📋 You may be required to disclose and document your use of AI in certain assignments.
-> * ⚠️ Use of well-known templates or examples demonstrating best practices (e.g. IDE project wizards) is allowed.
+> * ✅ Use of well-known templates or examples demonstrating best practices (e.g. IDE project wizards) is allowed.
+> * ⚠️ You may be required to disclose and document your use of AI in certain assignments.
 
 **I treat code or other text generated with artificial intelligence exactly the same way I treat materials obtained from a human-generated source (website post, book, classmate&hellip;).**
 
