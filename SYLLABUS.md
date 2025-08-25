@@ -13,22 +13,22 @@ This is a 2-credit elective course for Computer Science majors.
 ## Class Time and Place
 
 - **Semester/Block**: Fall 2025, Block 1 (8/25/2025 through 10/17/2025), 15 class sessions
-- **Days and Time**: Monday and Wednesday, 4:00 PM - 5:50 PM ([iCalendar File](https://github.com/fmillion-mnsu/cs440-s25/raw/master/cs406f25.ics))
+- **Days and Time**: Monday and Wednesday, 4:00 PM - 5:50 PM ([iCalendar File](https://github.com/fmillion-mnsu/cs406-f25/raw/master/cs406f25.ics))
 - **Location:** WH 284 ([Building Map](https://mankato.mnsu.edu/globalassets/maps/university/buildings/2021/wh_02_secondfloor_2021.pdf))
 
 ## Instructor
 
 - **Name**: Flint D. Million (he/him)
 - **Email**: [flint.million.2@mnsu.edu](mailto:flint.million.2@mnsu.edu)
-- **Office / Student Support Hours**: By Appointment - please E-mail to request
+- **Office / Student Support Hours**: By Appointment - please E-mail or see me in class to request an appointment.
 
 It's important to me that I be available to help you succeed in this course. If you need to contact me, please send me an E-mail. I try to answer all emails within 24 hours, including weekends - even if I need more time to respond, I will acknowledge receipt of your message. If I have not responded to your E-mail message after 24 hours, please resend the message in case it got lost or buried. *Do not feel you need to wait longer than 24 hours* to resend your message - I would rather see your message more than once than miss your questions!
 
-If you would like to meet with me directly, you can schedule time with me to meet in my office or in the CS Project space. Please contact me via E-mail or before or after class and I will accommodate your time schedule to the best of my ability.
+If you would like to meet with me directly, you can schedule time with me to meet in my office, in the CS Project space, or via Zoom. Please contact me via E-mail or before or after class and I will accommodate your time schedule to the best of my ability.
 
 ## Course Description
 
-This course will introduce you to advanced networking concepts with a focus on modern network systems, automation, managemenet and performance monitoring and improvement. This knowledge is especially useful even if you do not plan to work on networks or serve as a systems administrator; software developers who understand networking systems are able to design applications that provide better performance, adapt better to modern automated network systems and offer improved security.
+This course will introduce you to advanced networking concepts with a focus on modern network systems, automation, management and performance monitoring and improvement. This knowledge is especially useful even if you do not plan to work on networks or serve as a systems administrator; software developers who understand networking systems are able to design applications that provide better performance, adapt better to modern automated network systems and offer improved security.
 
 ### Course Outline
 
@@ -38,6 +38,15 @@ This section serves as a rough outline of the topics we will cover in this cours
 * Week 3: Wireless Systems
 * Week 4: Software-Defined Networking
 * Week 5-8: Network-based Automation and Management (MDM, Analytics)
+
+### Objectives
+
+When you complete this course, you will be able to:
+
+* understand and apply basic networking terminology, concepts and techniques
+* understand wireless networking systems - both local and wide-area - and explain the components of such systems and their functions
+* understand and apply software-defined networking concepts, automation scripting, and continuous integration tasks to optimize software development and deployment
+* apply knowledge of networking and production deployment systems to improve the design of your applications for easier deployment and scalability
 
 ## Prerequisites
 
@@ -49,11 +58,15 @@ This course is aimed at students who know at least two programming languages at 
 
 You will be participating in in-class activities that require a laptop to be brought to class. If you do not have access to a personal laptop, you can borrow one from the University Library.
 
-D2L will be used to provide you with course announcements, homework assignments, course materials and quizzes. Official course announcements will also be sent to you via your university E-mail address. You are responsible for regularly checking D2L and your university E-mail for communications.
+You will need to install free open-source software on your machine. I will provide you instructions for any installations necessary along with guidance on removing the software after the class should you desire. There will be no costs associated with required software. 
+
+> If you are using a university loaned computer and do not have permission to install software or are otherwise unable to install software on your own machine, or if you experience compatibility issues, come speak with me so we can evaluate alternatives. A limited number of secure cloud environments can be made available in such circumstances.
+
+D2L will be used to provide you with course announcements, homework assignments and course materials. Official course announcements will also be sent to you via your university E-mail address. You are responsible for regularly checking D2L and your university E-mail for communications.
 
 ## Group Projects
 
-This course will involve group projects that you will work on in small groups of 3-4 students. Groups will be assigned early in the course.
+This course will involve group projects that you will work on in small groups of 3-4 students. Groups will be assigned early in the course. You will select your group members on your own.
 
 Group assignments are generally a single submission for the entire group. If you find that you are struggling as a group (for example, a group member is not contributing fairly), please communicate your concerns to me privately. I will keep any comments you make in this regard anonymous. 
 
@@ -75,18 +88,16 @@ This course will use shaded grading. The following is the minimum score for each
 
 Percentage of Points | Grade
 -------------------- | -----
-97% | A+
-94% | A
+93% | A
 90% | A-
 87% | B+
-84% | B
+83% | B
 80% | B-
 77% | C+
-74% | C
+73% | C
 70% | C-
-67% | D+
-64% | D
-60% | D-
+68% | D+
+65% | D
 0% | F
 
 ### Deadlines
@@ -106,11 +117,13 @@ On Time | 100%
 
 Late submission days *include weekends*. (If an assignment is due on Friday at 11:59 PM, submitting on Monday counts as 3 days late!)
 
+> If you know ahead of time that you will miss a posted deadline, contact me *as soon as possible* to discuss your situation.
+
 ### Attendance Grading
 
 Because attendance is very important in small group project work, we will be taking attendance in this course. Each time you come to class, you will scan your MavCARD to present your attendance. More details on this will be given in class.
 
-Attendance grading will comprise 5% of your final course grade. **However, if attendance becomes a significant concern, your overall grade** ***may be lowered*** **due to significantly poor attendance, depending on the circumstances.**
+Attendance grading will comprise 5% of your final course grade. **However, if attendance becomes a significant concern, your overall grade** ***may be lowered*** **due to significantly poor attendance, depending on the circumstances.** I will speak to you directly if you are approaching a situation where your grade is at risk due to attendance concerns.
 
 If you need to miss a class, you should contact me *as early as possible* to explain your situation. I will make reasonable accommodations for important activities that require you to be absent from class; if your absence is significant I may offer you some make-up work and/or the option to join the class via Zoom as appropriate. **Notifying me of an absence after the fact will NOT result in an excused absence unless the circumstances are particularly extreme and warrant such an accommodation.** Such exceptions will only be made on a case-by-case basis.
 
@@ -120,7 +133,7 @@ If attendance is taken during a class in which I have given you an excused absen
 
 You have the right to ask me for an explanation of any grade you receive, both on assignments as well as your final grade. 
 
-Grade appeals are reviewed in instances where students perceive that a final course grade is unfair, arbitrary, or capricious. Students must begin the procedures of this policy within two weeks of university notification of a final course grade. Students needing assistance at any step in appealing a grade may contact the Academic Affairs Coordinator of the Student Senate (280 Centennial Student Union; phone 389-2611). Students should retain copies of all materials associated with this process for their records. Students should also have records of their coursework from the class as part of the appeal process. The full policy is available at <http://www.mnsu.edu/policies/approved/gradeappeals.pdf>.
+Grade appeals are reviewed in instances where students perceive that a final course grade is unfair, arbitrary, or capricious. Students must begin the procedures of this policy within two weeks of university notification of a final course grade. Students needing assistance at any step in appealing a grade may contact the Academic Affairs Coordinator of the Student Senate (280 Centennial Student Union; phone 389-2611). Students should retain copies of all materials associated with this process for their records. Students should also have records of their coursework from the class as part of the appeal process. The full policy is available at <https://www.mnsu.edu/policies/approved/gradeappeals.pdf>.
 
 ## Diversity Statement
 
@@ -141,7 +154,7 @@ In this course, I encourage you to ask your peers and utilize available online r
 * Helping your classmate or another group understand why their syntax is causing a compilation error is OK; fixing it for them or providing a copy of your code to your classmate is not.
 * Asking a classmate, group or online forum a question about why your code is not doing what you expect it to, and receiving answers guiding you to a solution that you implement yourself, is OK; asking someone to fix the code *for* you or simply provide you with working code that you will use as-is is not.
 * Studying code online to learn how something is done and then implementing that solution in your own way is OK (as long as you understand and can explain your code); copying and pasting large amounts of code verbatim or with only very minimal changes is not. 
-* **My policy on use of artifical intelligence is covered in a [separate section below](#artificial-intelligence-policy).**
+* **My policy on use of artificial intelligence is covered in a [separate section below](#artificial-intelligence-policy).**
 
 This course includes a group project. For the group project, specific requirements for submission of completed work will be outlined for that specific project. Each group will submit both a final group project deliverable *in addition to* individual submissions. For all work outside the group project, unless otherwise noted, you should assume *all* homework is to be completed and submitted **individually**.
 
@@ -149,10 +162,28 @@ The full policy, including definitions of plagiarism, cheating, and collusion, i
 
 ### Artificial Intelligence Policy
 
-I treat code or other text generated with artificial intelligence the same way I treat materials obtained from a human-generated source (website post, book, classmate&hellip;). In other words, in most cases you *may* ask an AI system for assistance with your code and you *may* study code generated by the AI for ideas; however, you ***may not*** copy code provided by an AI engine verbatim or with only very minimal modification and include it as your own work. You *can* use AI as a tool to help you learn and as a reference, but you *cannot* (and should not!) use AI as a tool to "do the work for you".
+> **AI Generated Summary**
+>
+> This summary was generated using artificial intelligence. The full policy is below.
+>
+> You are allowed to use generative AI tools to assist your learning in this course, just as you could consult a book or online resource. However, you may not copy AI-generated code or text verbatim (with little or no modification) and submit it as your own. AI may be used as a reference or for ideas, but not to do your work for you. You are responsible for understanding and being able to explain everything you submit, and must follow specific documentation requirements if instructed.
+>
+> Key Points:
+> * ✅ You may generate and study AI-generated content and adapt it your own way as long as you fully understand it.
+> * ❌ You may not copy-and-paste AI-generated code or text, even with minor changes.
+> * ✅ You may use AI as a learning or reference tool, not a substitute for doing your own work.
+> * ❌ You may not share AI-generated artifacts outside your group unless explicitly allowed.
+> * 📋 You may be required to disclose and document your use of AI in certain assignments.
+> * ⚠️ Use of well-known templates or examples demonstrating best practices (e.g. IDE project wizards) is allowed.
 
-As with any code you submit, you must **fully understand and be able to defend your code**. In any case, you may *not* share artifacts you generate with AI with any other classmates (with the obvious exception of sharing with your group members for group project work).
+**I treat code or other text generated with artificial intelligence exactly the same way I treat materials obtained from a human-generated source (website post, book, classmate&hellip;).**
 
+Specifically, this means that in most cases (unless otherwise required by an assignment), you *may* ask an AI system for assistance with your code and you *may* study code generated by the AI for ideas; however, you ***may not*** copy code provided by an AI engine verbatim or with only very minimal modification and include it as your own work. 
+
+You *can* use AI as a tool to help you learn and as a reference, but you *cannot* (and should not!) use AI as a tool to "do the work for you".
+
+> As with any code you submit, you must **fully understand and be able to defend your code**. In any case, you may *not* share artifacts you generate with AI with any other classmates (with the obvious exception of sharing with your group members for group project work).
+> 
 > In some cases, I may ask you to **document use of AI**, including LLM used, prompts submitted and the complete, unedited output from AI. In such situations, this requirement will be noted in the assignment; please observe and follow such instructions as described.
 
 *I exercise common sense in enforcing these policies*. For example, if you discover that there is one single well-established strategy for accomplishing a given generic task and a template implementing that method is provided, and coding an alternative strategy would be excessively awkward or would create other secondary issues (e.g. insecure code, slower performance, etc.), then using such a template is not considered "copying and pasting large amounts of code verbatim".
@@ -162,6 +193,8 @@ As with any code you submit, you must **fully understand and be able to defend y
 > Use of such tools is *not* violation of this policy, since they are generic in nature and you are still required to write the code to make the application perform your specific tasks.
 >
 > However, asking an AI engine to write code for your *specific, unique* scenario, and then *copying that code as-is*, is a violation of this policy.
+
+*In the instance that you have a legitimate reason to include a large section of AI-generated content in a submission*, use proper citation strategies to cite the AI-generated content the same way you would cite another source. [This page](https://apastyle.apa.org/blog/how-to-cite-chatgpt) will give you an overview of proper citation of generative AI content.
 
 If you have further questions on this policy, or want to ask about a specific scenario, please feel free to ask me. 
 
@@ -181,7 +214,7 @@ If you need to record lectures or need course materials for an accessibility rea
 
 In any case where recording is permitted (even for accessibility purposes), recorded lectures or copied material must be destroyed at the end of the course or semester. Unauthorized downloading, file sharing, or distribution of any part of a recorded lecture or course materials, or using information from such recordings for purposes other than the student’s own learning, may be deemed a violation of Minnesota State University, Mankato’s “Statement of Student Responsibilities,” subject to disciplinary action.
 
-The full policy is available at <http://www.mnsu.edu/atoz/policies/recordingoflecturesandmaterials2015.pdf>.
+The full policy is available at <https://www.mnsu.edu/atoz/policies/recordingoflecturesandmaterials2015.pdf>.
 
 > [!TIP]
 > The materials in this GitHub repository are licensed under CC-BY-SA and are publicly accessible on GitHub, and as such this policy **does not apply** to the materials in this repository. You may access, share and use materials in this repository however you like provided you abide by the terms of the [CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
@@ -190,12 +223,10 @@ The full policy is available at <http://www.mnsu.edu/atoz/policies/recordingofle
 
 Students represent the university through participation in university sponsored or sanctioned activities, such as the arts, theater, music, dance, forensics, and intercollegiate athletics. If an activity schedule conflicts with academic obligations, students will follow a standard protocol to provide their faculty members with prior, written notification of their absences from classes. Faculty members will determine, in consultation with students, how missed classes and assignments will be made-up in a manner that fulfills academic obligations and accommodates participatory obligations. Except for absences resulting from sponsored or sanctioned activities, student participants have the same responsibility with regard to class attendance and assignments as do all other students.
 
-The full policy is available at <http://www.mnsu.edu/atoz/policies/missedclassesandmakeupwork.pdf>.
+The full policy is available at <https://www.mnsu.edu/atoz/policies/missedclassesandmakeupwork.pdf>.
 
 If you need to miss class for an important non-school-related reason (e.g., a medical appointment), please let me know **ahead of time, as early as possible**. I understand that sometimes extenuating circumstances may arise suddenly without warning. In this case, please contact me by E-mail as soon as you possibly can to let me know you will be unable to attend class and/or meet a deadline. Within reason we will work together to come up with a solution. The more openly we communicate, the easier it is for me to accommodate your situation!
 
-If you test positive for COVID-19 but are *not symptomatic*, please come to class and wear a mask to protect others. If you *are* symptomatic, please let me know via E-mail as soon as possible and we can arrange for you to attend the course via Zoom temporarily.
-
 ### Veterans Information
 
-As a particular acknowledgment of an individual's service to our country, faculty members are committed to providing resources to veterans/military students, which will assist in smooth navigation of the university environment and a successful educational experience. Resources for veterans are available at <http://www.mnsu.edu/veterans/resources>. *Student veterans and current military members with special circumstances or who are activated are encouraged to notify the instructor.*
+As a particular acknowledgment of an individual's service to our country, faculty members are committed to providing resources to veterans/military students, which will assist in smooth navigation of the university environment and a successful educational experience. Resources for veterans are available at <https://www.mnsu.edu/veterans/resources>. *Student veterans and current military members with special circumstances or who are activated are encouraged to notify the instructor.*
