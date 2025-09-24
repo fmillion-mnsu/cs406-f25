@@ -72,7 +72,6 @@ You should see all green checkmarks. If any component shows an error, contact me
    
    Why do the pings fail?
 
-   > [!TIP]
    > Even though we've created a virtual switch, that switch needs to be told what to do - it needs instructions. 
    >
    > Your small switch at home, and any standard off-the-shelf consumer grade network switch, already has a program that implements the basic switching logic (i.e. use store-and-forward with MAC address tables to isolate traffic to only the destination ports). However, enterprise switches - while they may come with this setup as a default - rarely stay in this generic configuration. Open vSwitch, therefore, does not implement any logic by default - without any instructions, it's just a dead-end for packets.
@@ -143,7 +142,6 @@ Document your solution or your attempts if unsuccessful.
    sudo mn --custom topologies/basic.py --topo basic --switch user --controller remote,ip=127.0.0.1,port=6633
    ```
 
-   > [!TIP]
    > The Mininet server will listen for OpenFlow traffic on port `6633`. A controller can send commands to this port to direct Mininet what to do with traffic.
 
 4. **Perform connectivity tests** and observe the controller terminal:
