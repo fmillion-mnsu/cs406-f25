@@ -7,5 +7,5 @@ Fall 2025, Block 1.
     * [Assignment 1](I_ASSIGN1.md) - TCP Protocol application
     * [Assignment 2](I_ASSIGN2.md) - Wi-Fi network analysis
 * Group Assignments:
-    * Software Defined Network Plan
+    * [Software Defined Network - Part 1](G_ASSIGN1.md) - Setting up and testing a simple SDN using open source tools
 
