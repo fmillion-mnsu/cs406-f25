@@ -31,6 +31,8 @@ You will access your SDN lab environment through a web-based terminal:
 > - `Ctrl-B, [0-9]` - Switch between windows
 > - `Ctrl-B, d` - Detach (your session continues running)
 > - `tmux attach -t sdn` - Reattach to your session
+>
+> Using `tmux` is optional, as you can also simply open multiple browser windows to the server to get more terminals.
 
 2. Verify your environment is properly configured:
 
@@ -41,6 +43,11 @@ You will access your SDN lab environment through a web-based terminal:
 You should see all green checkmarks. If any component shows an error, contact me for assistance.
 
 3. Access your **VS Code cloud instance** by visiting `https://code-g<n>.cs406.campus-quest.com` (replace `<n>` with your group number!). The password is the same as the admin password you were given in class.
+
+> [!IMPORTANT]
+> You **cannot** use the VS Code terminal to run commands for the SDN exercise. The VS Code's integrated terminal is in a different virtual environment than the actual SDN environment - the only thing that is shared between the two is your code directory. Changes you make in VS Code are immediately reflected in the SDN environment, but you must use the web terminal to actually execute commands. 
+>
+> If you do try to run any SDN commands in the VS Code terminal, they will fail.
 
 ## Part 1: Basic Topology Creation
 
