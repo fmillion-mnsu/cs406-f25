@@ -20,7 +20,7 @@ This is Phase 1 of a multi-week SDN project. In this phase, you'll establish a w
 
 You will access your SDN lab environment through a web-based terminal:
 
-1. Navigate to: `https://g?.cs406.campus-quest.com` (replace `?` with your **group number**) and log in using the username and password given to your group.
+1. Navigate to: `https://g<n>.cs406.campus-quest.com` (replace `<n>` with your **group number**) and log in using the username and password given to your group.
 
     You'll see a terminal with all necessary tools pre-installed. All work can be completed entirely through this web interface
 
@@ -40,6 +40,8 @@ You will access your SDN lab environment through a web-based terminal:
 
 You should see all green checkmarks. If any component shows an error, contact me for assistance.
 
+3. Access your **VS Code cloud instance** by visiting `https://code-g<n>.cs406.campus-quest.com` (replace `<n>` with your group number!). The password is the same as the admin password you were given in class.
+
 ## Part 1: Basic Topology Creation
 
 1. **Examine the provided topology file**:
@@ -47,26 +49,35 @@ You should see all green checkmarks. If any component shows an error, contact me
    cat topologies/basic.py
    ```
 
+    or open the file in VS Code.
+
 2. **Run Mininet with the basic topology**:
    ```bash
    sudo mn --custom topologies/basic.py --topo basic --switch user --controller none
    ```
    
-   This creates a network with 3 hosts and 1 switch, but no controller.
+   This creates a network with 3 hosts and 1 switch, but no controller. 
 
 3. **Test connectivity** from the Mininet CLI:
    ```
    mininet> pingall
    ```
    
-   **Document**: What happens? Why do the pings fail?
+   Why do the pings fail?
+
+   > [!TIP]
+   > Even though we've created a virtual switch, that switch needs to be told what to do - it needs instructions. 
+   >
+   > Your small switch at home, and any standard off-the-shelf consumer grade network switch, already has a program that implements the basic switching logic (i.e. use store-and-forward with MAC address tables to isolate traffic to only the destination ports). However, enterprise switches - while they may come with this setup as a default - rarely stay in this generic configuration. Open vSwitch, therefore, does not implement any logic by default - without any instructions, it's just a dead-end for packets.
+   >
+   > The switch needs to get those instructions from *somewhere*...
 
 4. **Examine the switch's flow table**:
    ```
    mininet> sh ovs-ofctl dump-flows s1
    ```
    
-   **Document**: What do you observe? Take a screenshot.
+   **Document**: What do you observe? Take a **screenshot**.
 
 5. **Exit Mininet**:
    ```
@@ -85,7 +96,7 @@ You should see all green checkmarks. If any component shows an error, contact me
    mininet> pingall
    ```
    
-   **Document**: What changed? How many packets were successfully transmitted?
+   **Document**: What changed and why?
 
 3. **Check the flow table again**:
    ```
@@ -103,6 +114,7 @@ Without exiting Mininet, can you manually add a flow rule that blocks traffic fr
 > - Use `sh ovs-ofctl add-flow ...` from the Mininet prompt
 > - Consider match fields: `in_port`, `nw_src`, `nw_dst`
 > - Actions can include `drop` or `output:port`
+> - This page documents the `ovs-ofctl add-flow` command: <https://pica8-fs.atlassian.net/wiki/spaces/PicOS443sp/pages/10477970>
 
 Document your solution or your attempts if unsuccessful.
 
@@ -124,6 +136,9 @@ Document your solution or your attempts if unsuccessful.
    sudo mn --custom topologies/basic.py --topo basic --switch user --controller remote,ip=127.0.0.1,port=6633
    ```
 
+   > [!TIP]
+   > The Mininet server will listen for OpenFlow traffic on port `6633`. A controller can send commands to this port to direct Mininet what to do with traffic.
+
 4. **Perform connectivity tests** and observe the controller terminal:
    ```
    mininet> h1 ping -c 3 h2
@@ -144,22 +159,12 @@ Document your solution or your attempts if unsuccessful.
 
 2. **Copy and modify the topology**:
    ```bash
-   cp topologies/basic.py topologies/my.py
-   nano topologies/task4.py
+   cp topologies/basic.py topologies/task4.py
    ```
    
-   Add a 4th host (h4) and a 2nd switch (s2). Connect them however you like, but ensure all hosts can potentially reach each other.
+   then open the `task4.py` file using your VS Code editor instance.
 
-    > [!TIP]
-    > Nano is a terminal-based text editor. You interact with it using various keystrokes.
-    >
-    > Basic editing is pretty obvious - use your arrow keys to move the cursor and type.
-    >
-    > You can exit and save your changes by pressing Ctrl+X, and then answering `Y` to the prompt.
-    >
-    > A few other useful commands:
-    > - `Ctrl+K` - cut the current line. Pressing Ctrl+K repeatedly cuts more lines and appends them. As soon as you move the cursor, however, Ctrl+K will *erase* the buffer - so be careful!
-    > - `Ctrl+U` - paste the current buffer in the current position. Hint: You'll need to first cut then paste, then go elsewhere and paste again, to do a copy.
+   Add a 4th host (h4) and a 2nd switch (s2). Connect them however you like, but ensure all hosts can potentially reach each other.
 
 3. **Run your new topology**:
    ```bash
@@ -183,6 +188,9 @@ Then trigger some traffic in Mininet and observe the OpenFlow messages.
 
 **Document**: Can you identify at least one PACKET_IN and one FLOW_MOD message? What information do they contain?
 
+> [!TIP]
+> `tshark` is a command line version of Wireshark, a popular packet analysis and capture tool. You can also write your capture to a file and then download and open that file in the full graphical Wireshark application. This is left as an exercise to you, but as a hint, you can use the VS Code interface to download the capture file to your PC.
+
 ## Deliverables
 
 Your team should maintain a sprint journal containing:
@@ -201,6 +209,8 @@ Your team should maintain a sprint journal containing:
 
 3. **Network Documentation**:
    - Diagram of your custom topology (photo of hand-drawn is acceptable, or use draw.io - free online diagramming tool - to make a nice electronic version)
+
+You will not submit anything until the end of the project, but please keep your deliverables in order and collected in one place!
 
 ## Tips and Troubleshooting
 
