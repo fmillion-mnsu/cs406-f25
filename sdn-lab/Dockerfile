@@ -24,8 +24,8 @@ RUN apt-get update && apt-get install -y \
     rm -rf /var/lib/apt/lists/*
 
 # Install Ryu and dependencies (works with Python 3.8)
-RUN pip3 install --no-cache-dir ryu eventlet routes webob paramiko
-
+#RUN pip3 install --no-cache-dir ryu eventlet routes webob paramiko
+RUN pip3 install --no-cache-dir ryu 'eventlet<0.31' routes webob paramiko
 
 # Install switch
 RUN cd /tmp && \
