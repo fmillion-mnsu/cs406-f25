@@ -266,11 +266,9 @@ ovs-vsctl show
 
 In Phase 2, you will:
 
+- Choose a real-world context for your SDN application
 - Modify the switch configuration in Ryu to add custom functionality
 - Work with multiple switches and redundant paths
-- Implement custom routing algorithms
-- Explore network slicing concepts
-- Choose a real-world context for your SDN application
 
 Make sure you understand the concepts from Phase 1, as they form the foundation for the upcoming work.
 
